@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 
-public class ejercicio2 {
+public class ejercicioDos {
 
     static Scanner teclado = new Scanner(System.in);
     static double peso_persona = 0.0;

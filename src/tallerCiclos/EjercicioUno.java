@@ -1,7 +1,7 @@
 package tallerCiclos;
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class EjercicioUno {
        static Scanner teclado = new Scanner(System.in);
         //variable contadora de las veces que hay un dulce defectuoso
        static int contador_consecutivo_dulce_defectuoso = 0;
