@@ -23,6 +23,12 @@ public class ejercicioCuatro {
                 System.out.println("programa finalizado");
                 break;
             }
+            if (saldo < -4000) {
+                tarjeta_bloqueada = true;
+                System.out.println("saldo negativo critico, tarjeta bloqueada");
+            } else if (saldo < 0) {
+                tarjeta_bloqueada = true;
+            }
 
             if (tarjeta_bloqueada) {
                 if (codigo == 4) {
@@ -42,9 +48,10 @@ public class ejercicioCuatro {
                 viaje_anterior = 1;
                 System.out.println("viaje en bus descontado, saldo: " + saldo);
             } else if (codigo == 2) {
+                 viaje_anterior = 2;
                 if (viaje_anterior == 2) {
                     saldo = saldo - 1600;
-                    System.out.println("descuento aplicado, metro consecutivo, saldo: " + saldo);
+                    System.out.println("descuento aplicado, saldo: " + saldo);
                 } else {
                     saldo = saldo - 3200;
                     System.out.println("viaje en metro descontado, saldo: " + saldo);
