@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class ejercicioSeis {   
     static Scanner teclado = new Scanner(System.in);
     static int riego_encendido_min = 0;
-    static double humedad = 0.0;
     static int estres_hidrico = 0;
+    static double humedad = 0.0;
     static boolean riesgo_encendido = false;
     static boolean riego_automatico = false;
     static boolean estres_critico = false;

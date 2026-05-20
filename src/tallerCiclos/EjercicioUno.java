@@ -5,11 +5,11 @@ public class EjercicioUno {
        static Scanner teclado = new Scanner(System.in);
         //variable contadora de las veces que hay un dulce defectuoso
        static int contador_consecutivo_dulce_defectuoso = 0;
-       static double peso_dulce = 0.0;
+       static int dulces_defectuosos = 0;
        static int contador_dulce_admitido = 0;
        static int total_dulces = 0;
+       static double peso_dulce = 0.0;
        static double porcentaje_dulces_defectuosos = 0.0;
-       static int dulces_defectuosos = 0;
 
     public static void main(String[] args) {
      while(true){
